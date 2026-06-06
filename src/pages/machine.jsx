@@ -1,4 +1,4 @@
-import { useEffect} from "react";
+import { useLayoutEffect } from "react";
 import brakesImg from "../assets/images/machine/brakes_ducati.png";
 import aeroImg from "../assets/images/machine/aero_ducati.png";
 import engineImg from "../assets/images/machine/engine_ducati.png";
@@ -6,20 +6,20 @@ import suspensionImg from "../assets/images/machine/suspension_ducati.png";
 import exhaustImg from "../assets/images/machine/exhaust_ducati.png";
 import tyreImg from "../assets/images/machine/rear_tyre.png";
 export default function Machine() {
-  useEffect(() => {
+  useLayoutEffect(() => {
   const hash = window.location.hash.replace("#", "");
 
   if (hash) {
-    setTimeout(() => {
-      const element = document.getElementById(hash);
+    const element = document.getElementById(hash);
 
-      if (element) {
-        element.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
-      }
-    }, 300);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "auto",
+        block: "start",
+      });
+    }
+  } else {
+    window.scrollTo(0, 0);
   }
 }, []);
   const sections = [
