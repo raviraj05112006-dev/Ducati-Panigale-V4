@@ -124,6 +124,7 @@ export default function SpecsHighlight() {
       <div className="flex relative z-30 flex justify-center pb-10 lg:-mt-15">
   <Link
     to="/machine"
+    onClick={()=> window.scrollTo(0,0)}
     className="
       group
       text-white/70
