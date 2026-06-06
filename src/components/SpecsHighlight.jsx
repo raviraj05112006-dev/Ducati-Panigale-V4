@@ -122,8 +122,8 @@ export default function SpecsHighlight() {
       </div>
 
       <div className="flex relative z-30 flex justify-center pb-10 lg:-mt-15">
-  <a
-    href="/machine"
+  <Link
+    to="/machine"
     className="
       group
       text-white/70
@@ -148,7 +148,7 @@ export default function SpecsHighlight() {
     >
       →
     </span>
-  </a>
+  </Link>
 </div>
 
     </section>
