@@ -1,10 +1,10 @@
 import { useLayoutEffect } from "react";
-import brakesImg from "../assets/images/machine/brakes_ducati.png";
-import aeroImg from "../assets/images/machine/aero_ducati.png";
-import engineImg from "../assets/images/machine/engine_ducati.png";
-import suspensionImg from "../assets/images/machine/suspension_ducati.png";
-import exhaustImg from "../assets/images/machine/exhaust_ducati.png";
-import tyreImg from "../assets/images/machine/rear_tyre.png";
+import brakesImg from "../assets/images/machine/brakes_ducati_compressed.webp";
+import aeroImg from "../assets/images/machine/aero_ducati_compressed.webp";
+import engineImg from "../assets/images/machine/engine_ducati_compressed.jpg";
+import suspensionImg from "../assets/images/machine/suspension_ducati_compressed.jpg";
+import exhaustImg from "../assets/images/machine/exhaust_ducati_compressed.jpg";
+import tyreImg from "../assets/images/machine/rear_tyre_compressed.jpg";
 export default function Machine() {
   useLayoutEffect(() => {
   const hash = window.location.hash.replace("#", "");

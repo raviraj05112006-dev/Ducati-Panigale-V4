@@ -1,4 +1,4 @@
-import logoImage from '../assets/images/home/ducati_logo_black_bg.jpg'
+import logoImage from '../assets/images/home/ducati_logo_black_bg.webp'
 
 export default function Navbar() {
   return (

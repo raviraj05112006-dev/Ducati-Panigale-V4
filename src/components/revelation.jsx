@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
-import ducatiImage from "../assets/images/home/ducati_reveal.png";
+import ducatiImage from "../assets/images/home/ducati_reveal.webp";
 
 export default function Revelation() {
   const sectionRef = useRef(null);

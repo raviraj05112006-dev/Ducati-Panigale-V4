@@ -1,6 +1,6 @@
 import { useRef } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
-import taillightImage from "../assets/images/home/tail_final.png"
+import taillightImage from "../assets/images/home/tail_final.webp"
 import { useSpring } from "framer-motion"
 
 const lines = [

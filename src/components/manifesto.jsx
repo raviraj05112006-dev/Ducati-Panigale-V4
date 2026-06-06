@@ -1,7 +1,7 @@
-import mainBike from "../assets/images/home/side_front.png"
-import detailShot from "../assets/images/home/top_logo_flex.png"
-import topView from "../assets/images/home/top_front.png"
-import logoDesigned from "../assets/images/home/ducati_logo_designed.png"
+import mainBike from "../assets/images/home/side_front.webp"
+import detailShot from "../assets/images/home/top_logo_flex.webp"
+import topView from "../assets/images/home/top_front.webp"
+import logoDesigned from "../assets/images/home/ducati_logo_designed.webp"
 export default function Manifesto() {
 return (
 <section className="bg-black px-6 py-28 sm:px-10 lg:px-16">

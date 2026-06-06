@@ -1,4 +1,4 @@
-import heroImage from '../assets/images/home/ducati_hero_v2.png'
+import heroImage from '../assets/images/home/ducati_hero_v2.webp'
 
 export default function Hero() {
   return (

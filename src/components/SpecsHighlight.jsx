@@ -1,4 +1,4 @@
-import sideProfile from "../assets/images/home/ducati_side_profile.png"
+import sideProfile from "../assets/images/home/ducati_side_profile.webp"
 import Hotspot from "./hotspot";
 import { Link } from "react-router-dom";
 
