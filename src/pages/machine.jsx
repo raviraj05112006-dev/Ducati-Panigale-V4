@@ -20,7 +20,7 @@ export default function Machine() {
     {
       id: "brakes",
       title: "BREMBO BRAKING",
-      image: "src/assets/images/machine/brakes_ducati.png",
+      image: "../assets/images/machine/brakes_ducati.png",
       description:
         "Brembo braking systems deliver immense stopping power with precise control, allowing the rider to push deeper into corners with confidence.",
       specs: [
@@ -35,7 +35,7 @@ export default function Machine() {
     {
       id: "aero",
       title: "AERODYNAMIC PACKAGE",
-      image: "src/assets/images/machine/aero_ducati.png",
+      image: "../assets/images/machine/aero_ducati.png",
       description:
         "MotoGP-inspired winglets and aerodynamic surfaces generate stability at speed while reducing front-end lift during acceleration.",
       specs: [
@@ -50,7 +50,7 @@ export default function Machine() {
     {
       id: "engine",
       title: "DESMOSEDICI STRADALE",
-      image: "src/assets/images/machine/engine_ducati.png",
+      image: "../assets/images/machine/engine_ducati.png",
       description:
         "The heart of the machine. Ducati's 90° V4 delivers explosive power, relentless acceleration, and unmistakable character.",
       specs: [
@@ -65,7 +65,7 @@ export default function Machine() {
     {
       id: "suspension",
       title: "ÖHLINS SUSPENSION",
-      image: "src/assets/images/machine/suspension_ducati.png",
+      image: "../assets/images/machine/suspension_ducati.png",
       description:
         "Electronically controlled Öhlins suspension constantly adapts to riding conditions, balancing comfort and performance.",
       specs: [
@@ -80,7 +80,7 @@ export default function Machine() {
     {
       id: "exhaust",
       title: "AKRAPOVIČ EXHAUST",
-      image: "src/assets/images/machine/exhaust_ducati.png",
+      image: "../assets/images/machine/exhaust_ducati.png",
       description:
         "Engineered for performance and emotion, the Akrapovič system improves flow while producing a distinctive Ducati soundtrack.",
       specs: [
@@ -95,7 +95,7 @@ export default function Machine() {
     {
       id: "tyres",
       title: "PIRELLI PERFORMANCE TYRES",
-      image: "src/assets/images/machine/rear_tyre.png",
+      image: "../assets/images/machine/rear_tyre.png",
       description:
         "The only connection between machine and road. Pirelli tyres transform power into grip, confidence, and control.",
       specs: [
