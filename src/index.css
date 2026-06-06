@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family:'Bebas';
+  src: url('./assets/fonts/bebas-neue.regular.otf');
+}
+@font-face {
+  font-family:'Monetizer';
+  src: url('./assets/fonts/Monetizer.otf');
+}
+@font-face {
+  font-family:'General Sans-Regular';
+  src: url('./assets/fonts/GeneralSans-Regular.otf');
+}
+@font-face {
+  font-family:'General Sans-Medium';
+  src: url('./assets/fonts/GeneralSans-Medium.otf');
+}
+@font-face {
+  font-family:'General Sans-SemiBold';
+  src: url('./assets/fonts/GeneralSans-Semibold.otf');
+}
+@font-face {
+  font-family:'General Sans-Extralight';
+  src: url('./assets/fonts/GeneralSans-Extralight.otf');
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: #f8fafc;
+  background: #000;
+  font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(226, 232, 240, 0.16);
+  color: #f8fafc;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
