@@ -83,7 +83,7 @@ style={{fontFamily: "Bebas"}}>
         text-white/80
       "
     >
-      Would <span className="text-white">THE GLOW</span> ever shine
+      Would <span className="text-red-500">THE GLOW</span> ever shine
     </p>
 
     <p
