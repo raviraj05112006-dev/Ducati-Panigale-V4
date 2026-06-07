@@ -98,7 +98,7 @@ style={{fontFamily: "Bebas"}}>
         text-white/80
       "
     >
-      without <span className="text-white">THE DARK</span>?
+      without <span className="text-red-500">THE DARK</span>?
     </p>
 
   </div>
