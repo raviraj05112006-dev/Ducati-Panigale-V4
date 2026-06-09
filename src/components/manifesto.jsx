@@ -8,11 +8,11 @@ return (
 	<div className="grid gap-16 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
 		<div className="flex flex-col justify-between gap-12 lg:gap-16">
 			<div className="max-w-xl">
-				<h2 className="text-5xl font-light uppercase leading-[1.06] tracking-[0.08em] text-zinc-100 sm:text-6xl md:text-7xl"
+				<h2 className="text-3xl lg:text-5xl font-light uppercase leading-[1.06] tracking-[0.08em] text-zinc-100 sm:text-6xl md:text-7xl"
 				style={{fontFamily: "General Sans-Light"}}>
 					La velocità incontra l’eleganza.
 				</h2>
-				<p className="mt-8 text-sm uppercase tracking-[0.36em] text-zinc-500 sm:text-base lg:text-lg"
+				<p className="mt-8 text-[13px] lg:text-sm uppercase tracking-[0.17em] lg:tracking-[0.36em] text-zinc-500 sm:text-base lg:text-lg"
 				style={{fontFamily: "General Sans-Medium"}}>
 					Where speed meets elegance
 				</p>
@@ -50,9 +50,9 @@ return (
 				className="h-full w-full object-cover"
 				/>
 		</div>
-		<div className="flex h-full items-center pl-10 lg:pl-50">
+		<div className="flex h-full items-start lg:items-center pl-0 lg:pl-50">
 			<div className="flex flex-col leading-[0.80]">
-				<span className="text-5xl font-extralight uppercase tracking-[0.10em] text-zinc-100 sm:text-6xl md:text-7xl"
+				<span className="text-3xl lg:text-5xl font-extralight uppercase tracking-[0.10em] text-zinc-100 sm:text-6xl md:text-7xl"
 				style={{fontFamily: "General Sans-Light"}}>
 				Eleganza
 				Scolpita
@@ -60,7 +60,7 @@ return (
 				velocità.
 				</span>
 				{/* Translation */}
-				<p className="mt-10 max-w-[260px] text-sm uppercase tracking-[0.36em] text-zinc-600 lg:text-lg"
+				<p className="mt-5 lg:mt-10 max-w-[260px] text-[13px] lg:text-sm uppercase tracking-[0.17em] lg:tracking-[0.36em] text-zinc-600 lg:text-lg"
 				style={{fontFamily: "General Sans-Medium"}}>
 					Elegance sculpted by speed
 				</p>
@@ -74,7 +74,7 @@ style={{fontFamily: "Bebas"}}>
 
     <p
       className="
-        text-2xl
+        text-5xl
         md:text-4xl
         lg:text-8xl
         font-light
@@ -89,7 +89,7 @@ style={{fontFamily: "Bebas"}}>
     <p
       className="
         mt-4
-        text-2xl
+        text-5xl
         md:text-4xl
         lg:text-8xl
         font-light

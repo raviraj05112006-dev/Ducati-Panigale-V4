@@ -14,7 +14,8 @@ export default function SpecsHighlight() {
         <p
           className="
             text-sm
-            tracking-[0.35em]
+            tracking-[0.17em]
+            lg:tracking-[0.35em]
             uppercase
             text-neutral-500
             mb-4
@@ -25,8 +26,9 @@ export default function SpecsHighlight() {
 
         <h2
           className="
-            text-5xl
+            text-3xl
             md:text-7xl
+            lg:text-7xl
             font-light
             tracking-[-0.04em]
             text-white
@@ -56,8 +58,10 @@ export default function SpecsHighlight() {
           alt="Ducati Panigale V4 Side Profile"
           className="
             w-full
-            max-w-[1600px]
-            h-[500px]
+            h-[220px]
+            sm:h-[300px]
+            md:h-[400px]
+            lg:h-[500px]
             object-cover
             object-[center_85%]
             select-none
@@ -68,7 +72,7 @@ export default function SpecsHighlight() {
         <Hotspot
         label="BREMBO BRAKING"
         x="29%"
-        y="64%"
+        y="65%"
         side="left"
         lineWidth="w-20"
         target="brakes"
@@ -77,7 +81,7 @@ export default function SpecsHighlight() {
         <Hotspot
         label="DESMOSEDICI STRADALE"
         x="50%"
-        y="50%"
+        y="53%"
         side="right"
         lineWidth="w-90"
         target="engine"
@@ -86,7 +90,7 @@ export default function SpecsHighlight() {
         <Hotspot
         label="AERODYNAMIC WINGLET"
         x="72%"
-        y="38%"
+        y="37%"
         side="right"
         lineWidth="w-20"
         target="aero"
@@ -95,7 +99,7 @@ export default function SpecsHighlight() {
         <Hotspot
         label="ÖHLINS SUSPENSION"
         x="69%"
-        y="52%"
+        y="50%"
         side="right"
         lineWidth="w-30"
         target="suspension"
@@ -104,7 +108,7 @@ export default function SpecsHighlight() {
         <Hotspot
         label="AKRAPOVIČ EXHAUST"
         x="40%"
-        y="67%"
+        y="68%"
         side="left"
         lineWidth="w-30"
         target="exhaust"
@@ -113,7 +117,7 @@ export default function SpecsHighlight() {
         <Hotspot
         label="PIRELLI PERFORMANCE TYRES"
         x="28%"
-        y="37%"
+        y="38%"
         side="left"
         lineWidth="w-15"
         target="tyres"

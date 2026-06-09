@@ -135,7 +135,7 @@ export default function Machine() {
       {/* HERO */}
       <section className="min-h-screen flex flex-col justify-center items-center text-center px-6"
       style={{fontFamily: "General Sans-SemiBold"}}>
-        <p className="uppercase tracking-[0.4em] text-white/50 text-2xl mb-10">
+        <p className="uppercase tracking-[0.17em] lg:tracking-[0.4em] text-white/50 text-2xl mb-10">
           ENGINEERING
         </p>
 
@@ -159,7 +159,7 @@ export default function Machine() {
           id={section.id}
         >
           {/* IMAGE */}
-          <div className="px-8 md:px-12 lg:px-16">
+          <div className="px-2 md:px-12 lg:px-16">
             <img
               src={section.image}
               alt={section.title}
@@ -220,7 +220,7 @@ export default function Machine() {
       {/* FINAL */}
       <section className="min-h-[100vh] flex items-center justify-center px-6">
         <div className="text-center max-w-4xl">
-          <h2 className="text-4xl md:text-6xl lg:text-8xl italic font-light leading-tight"
+          <h2 className="text-5xl md:text-6xl lg:text-8xl italic font-light leading-tight"
           style={{fontFamily: "bebas"}}>
             What's the potential
             <br />

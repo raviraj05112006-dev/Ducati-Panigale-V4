@@ -12,7 +12,7 @@ export default function App() {
     <>
       <Navbar />
       {/* Global Italian Accent */}
-<div className="pointer-events-none fixed left-0 top-[61px] z-[9999] flex h-[5px] w-40 overflow-visible">
+<div className="pointer-events-none fixed left-0 top-[61px] lg:top-[61px] z-[9999] flex h-[5px] w-40 overflow-visible">
 
   <span className="w-1/3 bg-[#009246]" />
 

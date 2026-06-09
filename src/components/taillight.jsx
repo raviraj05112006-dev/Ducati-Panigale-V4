@@ -71,7 +71,7 @@ export default function Taillight() {
               className="absolute inset-0 flex items-center justify-center px-8 text-center"
             >
 
-              <h2 className="max-w-5xl font-semibold uppercase tracking-[0.14em] sm:text-6xl md:text-7xl lg:text-9xl"
+              <h2 className="max-w-5xl font-semibold uppercase tracking-[0.14em] text-5xl sm:text-6xl md:text-7xl lg:text-9xl"
               style={{fontFamily:"Bebas"}}>
                 {line}
               </h2>

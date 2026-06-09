@@ -80,8 +80,10 @@ export default function Hotspot({
         onMouseLeave={() => setHovered(false)}
         className="
           relative
-          w-6
-          h-6
+          w-2
+          h-2
+          lg:w-6
+          lg:h-6
           cursor-pointer
         "
       >
@@ -110,8 +112,10 @@ export default function Hotspot({
             absolute
             top-1/2
             left-1/2
-            w-2
-            h-2
+            w-[3px]
+            h-[3px]
+            lg:w-2
+            lg:h-2
             rounded-full
             bg-white
             -translate-x-1/2

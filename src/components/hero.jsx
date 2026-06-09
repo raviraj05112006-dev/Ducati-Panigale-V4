@@ -4,20 +4,28 @@ export default function Hero() {
   return (
     <main
       id="home"
-      className="relative mx-auto flex min-h-screen max-w-full items-center overflow-hidden bg-black px-6 py-8 sm:px-8 lg:px-12"
+      className="relative mx-auto flex min-h-screen flex-col items-center overflow-hidden bg-black px-4 py-4 sm:px-8 lg:flex-row lg:px-12"
     >
       {/* Cinematic Overlay */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(61,15,18,0.08),transparent_24%),linear-gradient(180deg,rgba(0,0,0,0.68),rgba(0,0,0,0.94))]" />
 
       {/* Left Content */}
-      <div className="relative z-10 flex w-full max-w-[600px] flex-col gap-10 pt-8 lg:pt-0 -ml-5">
+      <div className="relative z-10 flex w-full max-w-[600px] flex-col gap-10 pt-8 lg:pt-0 lg:-ml-5">
+        {/* Mobile Image */}
+<div className="mb-8 w-full sm:hidden">
+  <img
+    src={heroImage}
+    alt="Ducati Panigale V4"
+    className="h-auto w-full rounded-2xl object-cover"
+  />
+</div>
         <div className="max-w-xl space-y-9">
-          <p className="text-sm uppercase tracking-[0.4em] text-zinc-400/90"
+          <p className="text-sm  uppercase sm:tracking-[0.1em] lg:tracking-[0.4em] text-zinc-400/90 sm:mt-10 lg:mt-12"
           style={{fontFamily: "General Sans-Medium"}}>
             Italian performance · luxury engineering
           </p>
 
-          <h1 className="font-semibold uppercase leading-[0.92] tracking-[0.11em] text-zinc-100 sm:text-5xl md:text-6xl lg:text-8xl"
+          <h1 className="font-semibold uppercase leading-[0.92] tracking-[0.11em] text-zinc-100 text-3xl sm:text-5xl md:text-6xl lg:text-8xl"
           style={{fontFamily: "bebas"}}>
             PANIGALE V4
           </h1>
